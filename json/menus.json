@@ -1,38 +1,38 @@
 {
-    "id":"root",
-    "name":"菜单",
-    "childs":
-        [{"id": "node1",
-            "name": "欢迎页面","url":"/children",
-            "childs":[]
-        },{"id":"node2",
-            "name":"系统工具",
-            "childs":[{
-                "id":"node3",
-                "name":"nginx",
-                "childs":[]
+    "Id":"root",
+    "Name":"菜单",
+    "Childs":
+        [{"Id": "node1",
+            "Name": "欢迎页面","Url":"/children",
+            "Childs":[]
+        },{"Id":"node2",
+            "Name":"系统工具",
+            "Childs":[{
+                "Id":"node3",
+                "Name":"nginx",
+                "Childs":[]
             },{
-                "id":"node4",
-                "name":"zookeeper","url":"http://115.29.8.106:3001/node-zk",
-                "childs":[]
+                "Id":"node4",
+                "Name":"zookeeper","Url":"http://115.29.8.106:3001/node-zk",
+                "Childs":[]
             },{
-                "id":"node5",
-                "name":"svn",
-                "childs":[{
-                    "id":"node6",
-                    "name":"nodezk",
-                    "childs":[{
-                        "id":"node7",
-                        "name":"trunk",
-                        "childs":[]
+                "Id":"node5",
+                "Name":"svn",
+                "Childs":[{
+                    "Id":"node6",
+                    "Name":"nodezk",
+                    "Childs":[{
+                        "Id":"node7",
+                        "Name":"trunk",
+                        "Childs":[]
                     },{
-                        "id":"node8",
-                        "name":"tags",
-                        "childs":[]
+                        "Id":"node8",
+                        "Name":"tags",
+                        "Childs":[]
                     },{
-                        "id":"node9",
-                        "name":"branch",
-                        "childs":[]
+                        "Id":"node9",
+                        "Name":"branch",
+                        "Childs":[]
                     }]
                 }]
             }]
