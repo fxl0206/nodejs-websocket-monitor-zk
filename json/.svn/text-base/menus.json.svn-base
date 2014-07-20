@@ -1,0 +1,40 @@
+{
+    "id":"root",
+    "name":"菜单",
+    "childs":
+        [{"id": "node1",
+            "name": "欢迎页面","url":"/children",
+            "childs":[]
+        },{"id":"node2",
+            "name":"系统工具",
+            "childs":[{
+                "id":"node3",
+                "name":"nginx",
+                "childs":[]
+            },{
+                "id":"node4",
+                "name":"zookeeper","url":"http://115.29.8.106:3001/node-zk",
+                "childs":[]
+            },{
+                "id":"node5",
+                "name":"svn",
+                "childs":[{
+                    "id":"node6",
+                    "name":"nodezk",
+                    "childs":[{
+                        "id":"node7",
+                        "name":"trunk",
+                        "childs":[]
+                    },{
+                        "id":"node8",
+                        "name":"tags",
+                        "childs":[]
+                    },{
+                        "id":"node9",
+                        "name":"branch",
+                        "childs":[]
+                    }]
+                }]
+            }]
+        }]
+}
